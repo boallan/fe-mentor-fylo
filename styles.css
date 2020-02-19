@@ -1,3 +1,58 @@
-.icons{
+/*@media screen and (min-width: 600px){ CONTENT } /*Change back to 376px*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+li{
+  list-style:none;
+
+  padding: 0 17px;
+}
+
+.icons {
   background-color: black;
+}
+
+.all-your-files {
+  background-color: blue;
+}
+
+.li-top-nav{
+float:right;
+}
+
+.li-bottomleft-nav{
+float:left;
+}
+
+.li-bottomright-nav{
+float:right;
+}
+
+.stay-productive {
+  background-color: green;
+}
+
+.stay-productive-img {
+  /* float: right; */
+  max-width: 50%;
+}
+
+.footer-high {
+  background-color: hsl(238, 22%, 44%);
+  color: white;
+}
+
+.footer-low {
+  background-color: hsl(243, 87%, 12%);
+  color: white;
 }

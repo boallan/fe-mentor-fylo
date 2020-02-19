@@ -4,8 +4,11 @@
 <head>
   <meta charset="utf-8">
   <title>Fylo landing page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/38c095ecfa.js" crossorigin="anonymous"></script>
 </head>
 
@@ -17,25 +20,27 @@
         <div class="logo">
           <img src="images\logo.svg" alt="Logo">
         </div>
-        <div class="nav">
+        <div class="nav-top">
           <ul>
-            <li>Features</li>
-            <li>Team</li>
-            <li>Sign in</li>
+            <li class="li-top-nav"><a href="#">Features</a></li>
+            <li class="li-top-nav"><a href="#">Team</a></li>
+            <li class="li-top-nav"><a href="#">Sign in</a></li>
           </ul>
         </div>
       </div>
     </header>
+
     <div class="all-your-files">
-      <h2>All your files in one secure location, accessible anywhere.</h2>
-      <p>Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family and co-workers.</p>
-      <input type="text" name="enter your email" value="">
-      <button type="button" name="button">Get started</button>
-      <img src="images\illustration-1.svg" alt="Two people sorting files">
+      <img class="stay-productive-img" src="images\illustration-1.svg" alt="Two people sorting files">
+      <h1>All your files in one secure location, accessible anywhere.</h2>
+        <p>Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family and co-workers.</p>
+        <input type="text" name="enter your email" value="">
+        <button type="button" name="button">Get started</button>
     </div>
 
+    <img src="images\bg-curve-desktop.svg" alt="Curved Background">
+
     <div class="stay-productive">
-      <img src="images\bg-curve-desktop.svg" alt="Curved Background">
       <h2>Stay productive, wherever you are</h2>
       <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
       <p>Securely share files and folders with friends, family and colleagues for live vollaboration. No email attachments required!</p>
@@ -74,22 +79,25 @@
   <div class="footer-low">
     <div class="footer-low_contact">
       <img src="images/logo.svg" alt="Logo">
-      <br> <!--remove me-->
+      <br>
+      <!--remove me-->
       <img class="icons" src="images/icon-phone.svg" alt="phono-icon">
       <p>Phone: +1-543-123-4567</p>
       <img class="icons" src="images/icon-email.svg" alt="email-icon">
       <p>example@fylo.com</p>
-  </div>
+    </div>
 
     <div class="footer-low__links">
       <ul>
-        <li>About Us</li>
-        <li>Jobs</li>
-        <li>Press</li>
-        <li>Blog</li>
-        <li>Contact Us</li>
-        <li>Terms</li>
-        <li>Privacy</li>
+        <li class="li-bottomleft-nav">About Us</li>
+        <li class="li-bottomleft-nav">Jobs</li>
+        <li class="li-bottomleft-nav">Press</li>
+        <li class="li-bottomleft-nav">Blog</li>
+      </ul>
+      <ul>
+        <li class="li-bottomright-nav">Contact Us</li>
+        <li class="li-bottomright-nav">Terms</li>
+        <li class="li-bottomright-nav">Privacy</li>
       </ul>
     </div>
 
@@ -98,10 +106,6 @@
       <i class="fab fa-twitter"></i>
       <i class="fab fa-instagram"></i>
     </div>
-
-
-
-
   </div>
 </footer>
 
