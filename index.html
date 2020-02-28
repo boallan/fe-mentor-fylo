@@ -12,35 +12,35 @@
   <script src="https://kit.fontawesome.com/38c095ecfa.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body>  <!-- Correct placement of main and body tags? -->
   <main>
-    <!-- Correct placement of main and body tags? -->
     <header>
       <div class="header">
-        <div class="logo">
-          <img src="images\logo.svg" alt="Logo">
-        </div>
-        <div class="nav-top">
-          <ul>
-            <li class="li-top-nav"><a href="#">Features</a></li>
-            <li class="li-top-nav"><a href="#">Team</a></li>
-            <li class="li-top-nav"><a href="#">Sign in</a></li>
-          </ul>
-        </div>
-      </div>
+        <img class=logo ; src="images\logo.svg" alt="Logo">
+        <ul class="nav-top">
+          <li class="li-top-nav"><a href="#">Features</a></li>
+          <li class="li-top-nav"><a href="#">Team</a></li>
+          <li class="li-top-nav"><a href="#">Sign in</a></li>
+        </ul>
     </header>
 
-    <div class="all-your-files">
-      <img class="stay-productive-img" src="images\illustration-1.svg" alt="Two people sorting files">
-      <h1>All your files in one secure location, accessible anywhere.</h2>
-        <p>Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family and co-workers.</p>
+    <div class="allyourfiles-row"> <!-- using tables -->
+      <div class="allyourfiles-row__textbox">
+        <h1>All your files in one secure location, accessible anywhere.</h2>
+        <p> Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family and co-workers.</p>
         <input type="text" name="enter your email" value="">
         <button type="button" name="button">Get started</button>
+      </div>
+      <div class="allyourfiles-row__imgbox">
+        <img class="allyourfiles-row__img" src="images\illustration-1.svg" alt="Two people sorting files">
+      </div>
     </div>
+
 
     <img src="images\bg-curve-desktop.svg" alt="Curved Background">
 
-    <div class="stay-productive">
+
+    <div class="stay-productive">  <!--using float-->
       <h2>Stay productive, wherever you are</h2>
       <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
       <p>Securely share files and folders with friends, family and colleagues for live vollaboration. No email attachments required!</p>
@@ -50,7 +50,7 @@
         <img src="images\icon-arrow.svg" alt="Teeny wheeny greeny arrow">
       </div>
 
-      <img src="images\illustration-2.svg" alt="Team members working">
+      <img class="stay-productive-img" src="images\illustration-2.svg" alt="Team members working">
 
       <div class="testimonial">
         <img src="images/icon-quotes.svg" alt="quote-sign">

@@ -1,5 +1,4 @@
 /*@media screen and (min-width: 600px){ CONTENT } /*Change back to 376px*/
-
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -12,30 +11,60 @@ h2 {
   font-weight: 700;
 }
 
-li{
-  list-style:none;
-
+li {
+  list-style: none;
   padding: 0 17px;
+}
+
+header {
+  margin: 50px auto 50px;
+  position: relative;
 }
 
 .icons {
   background-color: black;
 }
 
-.all-your-files {
-  background-color: blue;
+.allyourfiles-row {
+  margin:100px auto 100px;
+  display: table;
+  height: 400px;
 }
 
-.li-top-nav{
-float:right;
+.allyourfiles-row__textbox {
+  vertical-align: middle;
+  display: table-cell;
+  max-width: 40%;
 }
 
-.li-bottomleft-nav{
-float:left;
+.allyourfiles-row__imgbox {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
 }
 
-.li-bottomright-nav{
-float:right;
+.allyourfiles-row__img {
+  max-width: 80%;
+}
+
+.nav-top {
+  display: inline-block;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.li-top-nav {
+  display: inline;
+}
+
+.li-bottomleft-nav {
+  float: left;
+}
+
+.li-bottomright-nav {
+  float: right;
 }
 
 .stay-productive {
@@ -43,7 +72,7 @@ float:right;
 }
 
 .stay-productive-img {
-  /* float: right; */
+  float: right;
   max-width: 50%;
 }
 
