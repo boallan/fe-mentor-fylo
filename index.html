@@ -7,8 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/38c095ecfa.js" crossorigin="anonymous"></script>
 </head>
 
@@ -16,54 +17,74 @@
   <!-- Correct placement of main and body tags? -->
   <main>
     <header>
-      <div class="header">
+      <div class="header-strip">
         <img class=header-logo ; src="images\logo.svg" alt="Logo">
         <ul class="nav-top">
-          <li class="li-top-nav"><a href="#">Features</a></li>
-          <li class="li-top-nav"><a href="#">Team</a></li>
-          <li class="li-top-nav"><a href="#">Sign in</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Sign in</a></li>
         </ul>
     </header>
 
-    <div class="allyourfiles-row">
-      <div class="allyourfiles-row__textbox">
+    <div class="allyourfiles-container">
+      <div class="allyourfiles-container__textbox">
         <h1>All your files in one secure location, accessible anywhere.</h1>
-        <p> Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family and co-workers.</p>
-        <input class="input1  " type="text" name="enter your email" value="Enter your email... ">
-        <button class="btn1" type="button" name="button">Get started</button>
+        <p> Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
+        <input class="allyourfiles-container__textbox--input  " type="text" name="enter your email" value="Enter your email... ">
+        <button class="allyourfiles-container__textbox--btn" type="button" name="button">Get Started</button>
       </div>
-      <div class="allyourfiles-row__imgbox">
-        <img class="allyourfiles-row__img" src="images\illustration-1.svg" alt="Two people sorting files">
+      <div class="allyourfiles-container__imgbox">
+        <img class="allyourfiles-container__img" src="images\illustration-1.svg" alt="Two people sorting files">
       </div>
     </div>
 
+
     <img class="curve_img" src="images\bg-curve-desktop.svg" alt="Curved Background">
 
-    <div class="stayproductive-row">
-      <div class="stayproductive-row__textbox">
+
+
+
+
+    <div class="section2">
+      <div class="section2__left">
         <h1>Stay productive, wherever you are</h1>
         <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
-        <p>Securely share files and folders with friends, family and colleagues for live vollaboration. No email attachments required!</p>
+        <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
 
-        <a href="#">See how Fylo works</a>
+        <a chref="#">See how Fylo works</a>
         <img src="images\icon-arrow.svg" alt="Teeny wheeny greeny arrow">
+        <div class="section2__left--hr">
+        </div>
+        <div class="section2__left__card">
+          <div class="section2__left__card--txtbox">
+            <p class="section2__left__card--quotesign">“</p>
+            <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become an well-oiled collaboration machine.</p>
+          </div>
 
-        <div class="stayproductive-row__testimonial__container">
-          <img src="images/icon-quotes.svg" alt="quote-sign">
-          <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become an well-oiled collaboration machine.</p>
-          <div class="stayproductive-row__testimonial__signature">
-            <div class="stayproductive-row__testimonial__imgbox">
-              <img class="stayproductive-row__testimonial__img" src="images/avatar-testimonial.jpg" alt="Kyle Burton">
+          <div class="section2__left__card__signature">
+            <div class="section2__left__card__signature--imgbox">
+              <img class="section2__left__card__img" src="images/avatar-card.jpg" alt="Kyle Burton">
             </div>
-            <div class="stayproductive-row__testimonial__textbox">
-              <p class="stayproductive-row__testimonial__name">Kyle Burton</p>
-              <p class="stayproductive-row__testimonial__title">Founder & CEO, Huddle</p>
+            <div class="section2__left__card__signature--textbox">
+              <p class="section2__left__card--name">Kyle Burton</p>
+              <p class="section2__left__card--title">Founder & CEO, Huddle</p>
             </div>
           </div>
+
         </div>
       </div>
-      <div class="stayproductive-row__imgbox">
-        <img class="stay-productive-img" src="images\illustration-2.svg" alt="Team members working">
+
+
+
+
+
+
+
+
+
+
+      <div class="section2-right">
+        <img class="section2__left__imgbox--img" src="images\illustration-2.svg" alt="Team members working">
       </div>
     </div>
 
@@ -74,7 +95,7 @@
 <footer>
   <div class="footer-high">
     <div class="footer-high__textbox">
-      <h2>Get early access today</h2>
+      <h1>Get early access today</h1>
       <p class="footer-text">It only takes a minute to sign up and out free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
     </div>
     <div class="footer-high__signup">
