@@ -218,8 +218,10 @@ header {
 /* position:relative; */
 }
 
+/* *****************/
+/* Renaming hertil */
+/* *****************/
 
-I gang med renaming hurra
 .section2__left__card--quotesign{
 font-family: 'Nunito Sans', sans-serif;
 font-size:45px;
@@ -268,19 +270,19 @@ height:92px;
 }
 
 
-.footer-high {
+.cta {
   background-color: #585989;
   background-color: hsl(238, 22%, 44%);
   color: white;
   display: table;
 }
 
-.footer-high__signup {
+.cta__signup {
   display: table-cell;
   width: 45%;
 }
 
-.footer-high__textbox {
+.cta__textbox {
   display: table-cell;
   vertical-align: middle;
   width: 45%;
@@ -315,7 +317,7 @@ height:92px;
 }
 
 /*** FOOTER LOW ***/
-.footer-low {
+.footer {
   background-color: #070439;
   background-color: hsl(243, 87%, 12%);
   color: white;
@@ -327,33 +329,33 @@ height:92px;
   display: block;
 }
 
-.footer-low__container {
+.footer__container {
   display: table;
   width: 100%;
   color: #bfbfbf;
   color: hsl(0, 0%, 75%);
 }
 
-.footer-low_contact {
+.footer_contact {
   display: table-cell;
   width: 25%;
 }
 
-.footer-low__menu1 {
+.footer__menu1 {
   display: table-cell;
   height: 7em;
   line-height: 2;
   width: 25%;
 }
 
-.footer-low__menu2 {
+.footer__menu2 {
   display: table-cell;
   height: 7em;
   line-height: 2;
   width: 20%;
 }
 
-.footer-low_some-icons {
+.footer_some-icons {
   display: table-cell;
   width: 30%;
   font-size: 1em;
