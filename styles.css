@@ -33,7 +33,7 @@ h1 {
 }
 
 header {
-  margin: 0 80px 0 80px;
+  margin: 0 80px 86px 80px;
   height:200px;
 }
 
@@ -71,7 +71,7 @@ header {
   vertical-align: top;
 }
 
-.allyourfiles-container {
+.allyourfiles {
   display: flex;
   justify-content:space-between;
   align-items:flex-start;
@@ -80,17 +80,17 @@ header {
   margin-bottom: 164px;
 }
 
-.allyourfiles-container__textbox {
+.allyourfiles__textbox {
   flex:0 0 600px;
   margin: 77px 0 2px 80px;
   height:474px;
 }
 
-.allyourfiles-container__textbox h1 {
+.allyourfiles__textbox h1 {
   margin:0;
 }
 
-.allyourfiles-container__textbox p{
+.allyourfiles__textbox p{
   font-size: 17px;
   color:hsl(243, 87.3%, 12.4%);
   line-height:1.412;
@@ -98,7 +98,7 @@ header {
   margin:15px 0 25px 0;
 }
 
-.allyourfiles-container__textbox--input {
+.allyourfiles__textbox--input {
   color: #bfbfbf;
   color: hsl(0, 0%, 75%);
   height: 45px;
@@ -111,7 +111,7 @@ header {
   letter-spacing: 1px;
 }
 
-.allyourfiles-container__textbox--btn {
+.allyourfiles__textbox--btn {
   background-color: #3065f8;
   background-color: hsl(224, 93%, 57.8%);
   border: none;
@@ -125,12 +125,12 @@ header {
   vertical-align: middle;
 }
 
-.allyourfiles-container__imgbox {
+/* .allyourfiles__imgbox {
+} */
+
+.allyourfiles__img {
   flex:0 0 600px;
   padding-right:80px;
-}
-
-.allyourfiles-container__img {
   height: 474px;
 }
 
@@ -145,39 +145,40 @@ header {
 
 
 
-.section2 {
+.stayproductive {
   background-color:#F8F8FE;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 111px;
 }
-
-.section2__left {
-  flex: 0 0 700px;
-  margin:0 0 0 80px;
-  /* letter-spacing: 1px; */
-}
-
-.section2__left h1{
-  margin: 58px 0 30px 0;
-}
-
-.section2__left p{
+.stayproductive__txt{
   margin: 0 170px 16px 0;
   font-weight: 400;
   line-height:1.5;
 }
 
-.section2__left a{
+.stayproductive__txtbox {
+  flex: 0 0 700px;
+  margin:0 0 0 80px;
+  /* letter-spacing: 1px; */
+}
+
+.stayproductive__txtbox h1{
+  margin: 58px 0 30px 0;
+}
+
+
+.stayproductive__txtbox a{
   color:#3DA08F;
 }
 
-.section2__left img{
+.stayproductive__txtbox img{
   vertical-align: middle;
   /* Need blur? */
   /* martini-top:a-ok(y); */
 }
 
-.section2__left--hr {
+.stayproductive__underline {
   border-top: 1px solid #3DA08F;
   width:166px;
   height:1px;
@@ -185,24 +186,17 @@ header {
 }
 
 
-
-
-
-
-
-
-
-.section2__right {
+.stayproductive__right {
   flex: 0 0 740px;
 }
 
-.section2__left__imgbox--img {
+.stayproductive__left__imgbox--img {
   max-width: 100%;
   margin:88px 0 0 38px;
   height:409px;
   }
 
-.section2__left__card {
+.stayproductive__card {
   background-color: white;
   border-radius: 6px;
   box-shadow: 0 0 10px 2px lightgrey;
@@ -214,67 +208,63 @@ header {
   color:#07043B;
 }
 
-.section2__left__card p{
-/* position:relative; */
-}
-
-/* *****************/
-/* Renaming hertil */
-/* *****************/
-
-.section2__left__card--quotesign{
+.stayproductive__card--quotesign{
 font-family: 'Nunito Sans', sans-serif;
 font-size:45px;
 color:#07043B;
-vertical-align: top;
-position:absolute;
-top:1px;
-margin:0 0 0 0;
+display:inline-block;
+line-height: 1.5;
+margin:0;
+background-color: red;
 }
 
-.section2__left__card--txtbox{
-  margin: 49px 34px 74px 33px;
-background-color: blue;
-width:289;
-height:92px;
+.stayproductive__card--txt{
+  margin: 0 1px 0 33px;
+background-color: pink;
 }
 
-
-.section2__left__card__img {
+.stayproductive__card__img {
   border-radius: 50%;
   width: 100%;
+  background-color: purple;
 }
 
-.section2__left__card__signature {
+.stayproductive__card--signature {
   display: flex;
+  background-color: orange;
 }
 
-.section2__left__card__signature--imgbox {
+.stayproductive__card--signature--imgbox {
   flex:0 0 32px;
+  background-color: magenta;
 }
 
-.section2__left__card__signature--textbox {
+.stayproductive__card--signature--textbox {
   flex:0 0 300px;
   vertical-align: middle;
+  background-color: blue;
 }
 
-.section2__left__card--name {
+.stayproductive__card--name {
   font-size: 0.7em;
   font-weight: 700;
   margin: 0;
+  background-color: green;
 }
 
-.section2__left__card--title {
+.stayproductive__card--title {
   font-size: 0.7em;
   margin: 0;
+  background-color: red;
 }
 
-
+/* TODO: de-tableify */
 .cta {
   background-color: #585989;
   background-color: hsl(238, 22%, 44%);
   color: white;
   display: table;
+  height: 322px;
 }
 
 .cta__signup {
@@ -322,6 +312,7 @@ height:92px;
   background-color: hsl(243, 87%, 12%);
   color: white;
   margin: 0 0 500px;
+  height: 391px;
 }
 
 .footer-logo {
