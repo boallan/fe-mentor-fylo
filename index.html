@@ -17,7 +17,7 @@
   <header class="header-strip">
     <img class=header-logo ; src="images\logo.svg" alt="Logo">
     <nav>
-      <ul class="nav-top">
+      <ul class="main-nav">
         <li><a href="#">Features</a></li>
         <li><a href="#">Team</a></li>
         <li><a href="#">Sign in</a></li>
@@ -50,7 +50,7 @@
           <!-- TODO: Should this be done by styling <a>? -->
         </div>
 
-          <!-- TODO: Clean up divs and classes -->
+        <!-- TODO: Clean up divs and classes -->
         <div class="stayproductive__card">
           <p class="stayproductive__card--quotesign">“</p>
           <p class="stayproductive__card--txt">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
@@ -80,46 +80,35 @@
     </section>
   </main>
 
-  <footer>
-    <div class="footer">
-      <img class="footer-logo" src="images/logo.svg" alt="Logo">
-      <div class="footer__container">
+  <footer class="footer">
+    <img class="footer-logo" src="images/logo.svg" alt="Logo">
+    <div class="footer__content">
+      <ul class="footer__contact">
+        <li><img class="footer__contact--phone-icon" src="images/icon-phone.svg" alt=""><span class=footer_contact--txt>Phone: +1-543-123-4567</span></li>
+        <li><img class="footer__contact--email-icon" src="images/icon-email.svg" alt=""><span class=contact-txt>example@fylo.com</span></li>
+      </ul>
+      <nav class="footer__left-nav">
+        <ul>
+          <li>About Us</li>
+          <li>Jobs</li>
+          <li>Press</li>
+          <li>Blog</li>
+        </ul>
+      </nav>
 
-        <div class="footer_contact">
-          <div class="footer-icons__phone-row">
-            <img class="footer-icons__img" src="images/icon-phone.svg" alt="phono-icon">
-            <p class="footer-icons__txt">Phone: +1-543-123-4567</p>
-          </div>
-          <br>
-          <div class="footer-icons__mail-row">
-            <img class="footer-icons__img" src="images/icon-email.svg" alt="email-icon">
-            <p class="footer-icons__txt">example@fylo.com</p>
-          </div>
-        </div>
+      <nav class="footer__right-nav">
+        <ul>
+          <li>Contact Us</li>
+          <li>Terms</li>
+          <li>Privacy</li>
+        </ul>
+      </nav>
 
-        <div class="footer__menu1">
-          <ul>
-            <li class="li-bottomleft-nav">About Us</li>
-            <li class="li-bottomleft-nav">Jobs</li>
-            <li class="li-bottomleft-nav">Press</li>
-            <li class="li-bottomleft-nav">Blog</li>
-          </ul>
-        </div>
-
-        <div class="footer__menu2">
-          <ul>
-            <li class="li-bottomright-nav">Contact Us</li>
-            <li class="li-bottomright-nav">Terms</li>
-            <li class="li-bottomright-nav">Privacy</li>
-          </ul>
-        </div>
-
-        <div class="footer_some-icons">
-          <i class="fab fa-facebook-f social-icon"></i>
-          <!-- Center fb icon -->
-          <i class="fab fa-twitter social-icon"></i>
-          <i class="fab fa-instagram social-icon"></i>
-        </div>
+      <div class="footer__social-icons">
+        <i class="fab fa-facebook-f social-icon"></i>
+        <!-- Center fb icon -->
+        <i class="fab fa-twitter social-icon"></i>
+        <i class="fab fa-instagram social-icon"></i>
       </div>
     </div>
   </footer>
