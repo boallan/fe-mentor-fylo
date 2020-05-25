@@ -356,43 +356,45 @@ margin: 0 0 0 33px;
   padding:0;
 }
 
-.footer__contact-txt  {
+.footer__contact--txt  {
   display: inline;
-  line-height:2;
+  line-height:1;
 }
 
 .footer__contact--phone-icon{
-  margin:2px 19px 0 0;
+  margin:0 19px 0 0;
+  vertical-align: middle;
 }
 
 .footer__contact--email-icon{
-  margin:5px 19px 0 0;
+  margin:0 19px 0 0;
+  vertical-align: middle;
 }
 
-
-/* .footer-icons__img {
-  background-color: #070439;
-  background-color: hsl(243, 87%, 12%);
-  display: inline;
-} */
 .footer__left-nav {
   flex: 0 0 269px;
-  /* padding:8px 0 0 41px; */
 }
 
 .footer__right-nav {
   flex: 0 0 264px;
-  /* padding:8px 0 0 19px; */
 }
 
 .footer__social-icons {
   flex: 0 0 150px;
-  font-size: 1em;
+  padding-top:16px;
+}
+
+.fa-facebook-f{
+  width:32.22px;
+  height:32px;
 }
 
 .social-icon {
   border-radius: 50%;
   border: solid 1px #fff;
   margin: 0 3px;
+  width:31.22px;
+  height:32px;
   justify-content: center;
+  vertical-align: middle;
 }
