@@ -1,5 +1,9 @@
 a {
   text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size:16px;
+  font-weight:400;
+  vertical-align: top;
 }
 
 a:visited a:link {
@@ -38,16 +42,14 @@ ul{
   list-style: none;
 }
 
-
-
 .main-nav {
   display: flex;
-  position:absolute;
   justify-content: space-between;
   margin: 15px 0 15px 0;
+  padding: 0;
+  position:absolute;
   right: 0px;
   top: 65px;
-  padding: 0;
   width: 271px;
   height:19px;
 }
@@ -56,17 +58,10 @@ ul{
   text-align: center;
 }
 
-.main-nav li a{
-  font-family: 'Raleway', sans-serif;
-  font-size:16px;
-  font-weight:400;
-  vertical-align: top;
-}
-
 .allyourfiles {
   display: flex;
-  justify-content:space-between;
   align-items:flex-start;
+  justify-content:space-between;
   height:474px;
   margin-top:77;
   margin-bottom: 164px;
@@ -77,6 +72,7 @@ ul{
   height:474px;
   margin: 77px 0 2px 80px;
 }
+
 
 .allyourfiles__textbox h1 {
   margin:0;
@@ -92,31 +88,28 @@ ul{
 
 .allyourfiles__textbox--input {
   border-radius: 2px;
-  box-sizing: border-box;
   border-style: solid;
   border-width: 1px;
+  box-sizing: border-box;
   color: #bfbfbf;
   letter-spacing: 1px;
+  padding: 6px 0 0 20px;
   height: 45px;
   width: 320px;
-  padding: 6px 0 0 20px;
 }
 
 .allyourfiles__textbox--btn {
-  background-color: #3065f8;
-  color: white;
   border: none;
   border-radius: 2px;
+  background-color: #3065f8;
+  color: white;
+  letter-spacing: 1px;
+  vertical-align: middle;
   margin: 0 0 6px 12px;
+  padding: 0 0 0 0;
   height: 45px;
   width: 200px;
-  letter-spacing: 1px;
-  padding: 0 0 0 0;
-  vertical-align: middle;
 }
-
-/* .allyourfiles__imgbox {
-} */
 
 .allyourfiles__img {
   flex:0 0 600px;
@@ -130,34 +123,28 @@ ul{
   width:1440px;
 }
 
-
-
-
-
-
 .stayproductive {
-  background-color:#F8F8FE;
   display: flex;
   justify-content: space-between;
+  background-color:#F8F8FE;
   margin-bottom: 0;
   height:670px;
-}
-.stayproductive__txt{
-  margin: 0 170px 16px 0;
-  font-weight: 400;
-  line-height:1.5;
 }
 
 .stayproductive__txtbox {
   flex: 0 0 700px;
   margin:0 0 0 80px;
-  /* letter-spacing: 1px; */
 }
 
 .stayproductive__txtbox h1{
   margin: 58px 0 30px 0;
 }
 
+.stayproductive--txt{
+  font-weight: 400;
+  line-height:1.5;
+  margin: 0 170px 16px 0;
+}
 
 .stayproductive__txtbox a{
   color:#3DA08F;
@@ -165,7 +152,6 @@ ul{
 
 .stayproductive__txtbox img{
   vertical-align: middle;
-  /* Need blur? */
   /* martini-top:a-ok(y); */
 }
 
@@ -175,13 +161,6 @@ ul{
   height:1px;
   margin:4px 0 44px 0;
 }
-
-
-.stayproductive__img{
-  max-width: 100%;
-  margin:88px 80px 0 38px;
-  height:409px;
-  }
 
 .stayproductive__card {
   background-color: #ffffff;
@@ -213,12 +192,11 @@ margin: 0 0 0 33px;
   margin-bottom:17px;
 }
 
-
 .stayproductive__card__signaturebox {
   display: flex;
 }
 
-.stayproductive__card__img {
+.stayproductive__card img {
   border-radius: 50%;
   width:32px;
   height:32px;
@@ -243,6 +221,12 @@ margin: 0 0 0 33px;
   line-height: 1.875;
   margin: 0 0 0 8px;
 }
+
+.stayproductive__img{
+  max-width: 100%;
+  margin:88px 80px 0 38px;
+  height:409px;
+  }
 
 .cta {
   background-color: #585989;
@@ -275,7 +259,7 @@ margin: 0 0 0 33px;
   margin: 100px 0 16px 80px;
 }
 
-.cta__input {
+.cta__signup input {
   background-color: #ffffff;
   box-sizing: border-box;
   color: #C0C0C0;
@@ -293,7 +277,7 @@ margin: 0 0 0 33px;
   padding:0 0 0 22px;
 }
 
-.cta__btn {
+.cta__signup button {
   background-color: #3065f8;
   background-color: hsl(224, 93%, 58%);
   border: none;
@@ -312,14 +296,8 @@ margin: 0 0 0 33px;
 .footer {
   background-color: #07043B;
   color: #ffffff;
-  margin: 0 0 500px; /*For workspace convenience, remove line when launched */
   height: 391px;
   padding: 105.61px 0 0 75px;
-}
-.footer li{
-  display: block;
-  height:22px;
-  margin:0 0 16px 8px;
 }
 
 .footer-logo {
@@ -336,13 +314,22 @@ margin: 0 0 0 33px;
   color: #ffffff;
 }
 
-.footer__content ul{
-  padding:0;
-}
-
 .footer__contact {
   flex: 0 0 441px;
   padding:0;
+}
+
+.footer__left-nav {
+  flex: 0 0 269px;
+}
+
+.footer__right-nav {
+  flex: 0 0 274px;
+}
+
+.footer__social-icons {
+  flex: 0 0 150px;
+  padding-top:16px;
 }
 
 .footer__contact--txt  {
@@ -360,17 +347,14 @@ margin: 0 0 0 33px;
   vertical-align: middle;
 }
 
-.footer__left-nav {
-  flex: 0 0 269px;
+.footer ul{
+  padding:0;
 }
 
-.footer__right-nav {
-  flex: 0 0 274px;
-}
-
-.footer__social-icons {
-  flex: 0 0 150px;
-  padding-top:16px;
+.footer li{
+  display: block;
+  height:22px;
+  margin:0 0 16px 8px;
 }
 
 .social-icon {
