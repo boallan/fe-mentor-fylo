@@ -2,12 +2,7 @@ a {
   text-decoration: none;
 }
 
-a:visited {
-  color: #07043B;
-  font-weight:400;
-}
-
-a:link {
+a:visited a:link {
   color: #07043B;
   font-weight:400;
 }
@@ -33,24 +28,19 @@ h1 {
 }
 
 header {
+  height:49px;
   margin: 0 80px 86px 80px;
-  height:200px;
+  padding-top:65px;
+  position:relative;
 }
 
 ul{
   list-style: none;
 }
 
-.header-strip{
-  height:49px;
-  padding-top:65px;
-  position:relative;
-}
 
-.header-logo {    /* so much empty */}
 
 .main-nav {
-  /* font properties, change in a:visited/link */
   display: flex;
   position:absolute;
   justify-content: space-between;
@@ -322,29 +312,28 @@ margin: 0 0 0 33px;
 .footer {
   background-color: #07043B;
   color: #ffffff;
-    margin: 0 0 500px; /*For workspace, remove line when launched */
+  margin: 0 0 500px; /*For workspace convenience, remove line when launched */
   height: 391px;
-  padding: 110.61px 0 0 83px;
+  padding: 105.61px 0 0 75px;
 }
 .footer li{
   display: block;
   height:22px;
-  margin-bottom:16px;
+  margin:0 0 16px 8px;
 }
 
 .footer-logo {
   filter: brightness(0) invert(1);
   display: block;
-  height:48.22px;
-  margin-bottom:9px;
+  height:51.22px;
+  margin:2px 6px 9px 6px;
 }
 
 .footer__content {
   display: flex;
   justify-content:flex-start;
   width: 100%;
-  color: #bfbfbf;
-  color: hsl(0, 0%, 75%);
+  color: #ffffff;
 }
 
 .footer__content ul{
@@ -367,7 +356,7 @@ margin: 0 0 0 33px;
 }
 
 .footer__contact--email-icon{
-  margin:0 19px 0 0;
+  margin:0 17px 0 0;
   vertical-align: middle;
 }
 
@@ -376,7 +365,7 @@ margin: 0 0 0 33px;
 }
 
 .footer__right-nav {
-  flex: 0 0 264px;
+  flex: 0 0 274px;
 }
 
 .footer__social-icons {
@@ -384,17 +373,20 @@ margin: 0 0 0 33px;
   padding-top:16px;
 }
 
-.fa-facebook-f{
-  width:32.22px;
-  height:32px;
-}
-
 .social-icon {
   border-radius: 50%;
-  border: solid 1px #fff;
-  margin: 0 3px;
-  width:31.22px;
-  height:32px;
-  justify-content: center;
+  border: solid 1px #ffffff;
+  box-sizing:border-box;
+  font-size:14px;
+  padding-top:8px;
+  text-align:center;
   vertical-align: middle;
+  margin:3px 8.49px 0 0; /* What is creating the extra margin here? */
+  width:31.22px;
+  height:31px;
+}
+
+.fa-instagram{
+  font-size:17px;
+  padding-top: 6px;
 }
